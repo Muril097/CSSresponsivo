@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    max-width: 640px;
+}
+header, footer{
+    background-color: rgba(16, 43, 0, 0.925);
+    color: bisque;
+}
+
+/*escondendo o menu para o mobile*/
+header ul {
+    display: none;
+}
+
+#banner img {
+    width: 100vw;
+}
+
+.social img, li {
+    width: 35px;
+    display: inline;
+}
+
+p {
+    font-size: 8px;
+}
+
+h1 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardapio > h3 {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pizza-area img {
+    width: 160px;
+}
+
+.drink-area img {
+    width: 80px;
+}
+
+.pizza-area , .drink-area {
+    display:grid;
+    grid-template-columns: repeat(4, 50%);
+    gap: 1%;
+}
+
+ul {
+    margin-left: 100px;
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: rgba(16, 43, 0, 0.925);
+    color: bisque;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 15px;
+    height: 50px;
+}
+
+
+/*resolução tablet*/
+@media screen and (max-width: 767px) {
+    
+};
